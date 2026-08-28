@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { movies } from '../data';
+import { movies } from '../data/data.js';  // นำเข้าข้อมูลหนังจาก data.js
 
 function MovieDetail() {
   const { id } = useParams();                       // อ่านค่าจาก URL (ได้เป็น string!)
