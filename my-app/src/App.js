@@ -8,6 +8,7 @@ import Movies from './pages/Movies';
 import About from './pages/About';
 import MovieDetail from './pages/MovieDetail.jsx';
 import NotFound from './pages/NotFound.jsx';
+
 // import './App.css';
 
 // const members = [
